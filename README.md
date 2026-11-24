@@ -19,7 +19,7 @@ Each HTML file contains the complete application as of that day, including all p
 | Day | Theme | Source Code |
 | --- | --- | --- |
 | 23 | Senses: Taste | [HTML](./day23.html) |
-| 24 | Coming soon | |
+| 24 | Network: The Network Effect | [HTML](./day24.html)|
 | 25 | Coming soon | |
 | 26 | Coming soon | |
 | 27 | Coming soon | |
