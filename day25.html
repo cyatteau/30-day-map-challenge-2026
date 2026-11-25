@@ -361,7 +361,7 @@
       }
       .prompt strong {
         font:
-          400 clamp(42px, 6.3vw, 105px)/0.88 "Instrument Serif",
+          400 clamp(36px, 5vw, 80px)/0.88 "Instrument Serif",
           Georgia,
           serif;
         margin: 17px 0 10px;
@@ -483,7 +483,7 @@
           padding: 8px 12px;
         }
         .prompt strong {
-          font-size: 64px;
+          font-size: clamp(36px, 8vw, 56px);
         }
         .stage-bottom {
           left: 10px;
@@ -682,7 +682,8 @@
           <div id="prompt" class="prompt">
             <span>NO MAP. NO HINTS.</span
             ><strong
-              >Draw the<br /><em id="place-name">United States.</em></strong
+              >Can you draw<br /><em id="place-name">the United States</em
+              ><br />from memory?</strong
             >
             <p>
               Hold and drag to trace the outline.<br />Release to finish your
@@ -1693,8 +1694,9 @@
             top + (ymax - y) * k,
           ]);
           actual.setAttribute("d", path(target));
+          const label = memoryBoundaries[picker.value].label;
           $("place-name").textContent =
-            memoryBoundaries[picker.value].label + ".";
+            label === "United States" ? "the United States" : label;
           clear();
         }
         function clear() {
