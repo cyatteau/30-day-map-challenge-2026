@@ -21,7 +21,7 @@ Each HTML file contains the complete application as of that day, including all p
 | 23 | Senses: Taste | [HTML](./day23.html) |
 | 24 | Network: The Network Effect | [HTML](./day24.html)|
 | 25 | Draw It From Memory | [HTML](./day25.html)|
-| 26 | Water | The Disappearing Sea | [HTML](./day26.html)|
+| 26 | Water: The Disappearing Sea | [HTML](./day26.html)|
 | 27 | Coming soon | |
 | 28 | Coming soon | |
 | 29 | Coming soon | |
